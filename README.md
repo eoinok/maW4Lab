@@ -15,6 +15,7 @@ as there were only 10 possible credits. So the GPA will be 3.5.
 Take the starter code from App.js in the repo and make it work so that when the button is clicked, the message 
 "this is the click me button" appears. Then translate the commented lines of code in the clickMe function into working Javascript
 so that when the button is clicked the App will calculate the GPA for the student and output it to the screen using an alert.
+You only need to add three lines of code to complete part 1.
 
 # Part 2
 Add the StyleSheet component to the list of components being imported at the top. Add the following block of code to your program.
