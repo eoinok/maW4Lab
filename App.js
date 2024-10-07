@@ -1,4 +1,4 @@
-import { SafeAreaView, Text, View, TextInput, Button, Alert } from 'react-native';
+import { SafeAreaView, Text, View, TextInput, Button, Alert, StyleSheet } from 'react-native';
 import {useState} from 'react';
 
 export default function App() {
@@ -26,17 +26,21 @@ export default function App() {
     //Output the calculated GPA result to the user using an alert (you must concatenate the gpa)
   }
 
-  return (
+
+return (
     <SafeAreaView>
+      <View><Text style={{flexDirection: "row", fontWeight: "bold", fontSize: 24, textAlign:"center", marginTop: "10%"}}>GPA Calculator</Text></View>
       <View>
         <Text>Maths</Text>
-        <TextInput placeholder="Grade" onChangeText={(val) => setSswd(val)}/>
+        <TextInput  placeholder="Grade" onChangeText={(val) => setSswd(val)}/>
       </View>
-      <View>
-        <Text >Organisational Behaviour</Text>
+      <View >
+        <Text>Organisational Behaviour</Text>
         <TextInput placeholder="Grade" onChangeText={(val) => setOb(val)}/>
       </View>
-      <Button title="submit" onPress={clickMe}/>
+      <View >
+        <Button title="submit" onPress={clickMe}/>
+      </View>
     </SafeAreaView>
   );
 }
