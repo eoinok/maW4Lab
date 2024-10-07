@@ -42,3 +42,9 @@ style={style.mystyle}
 ```
 as a prop inside the tag of the component.
 
+Now modify the respective styles inside the CSS tag so that the App looks better. Each row should get a flexDirection of 'row' so that 
+the elements will appear alongside each other. To improve the look of the other elements add marginLeft, marginRight, and padding settings.
+When adding these settings always use a percentage e.g. marginLeft: "5%". This will ensure the App is responsive and will render well
+on any screen size.
+
+
