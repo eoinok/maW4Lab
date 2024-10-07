@@ -3,19 +3,21 @@ import {useState} from 'react';
 
 export default function App() {
   const gradePoints = {'F': 0,'D': 1.5,'C': 2,'C+': 2.75, 'B': 3, 'B+': 3.5,  'A': 4 };
-  var totalGradeScores = 0;
+  
   const [sswd, setSswd] = useState('D');
   const [ob, setOb] = useState('D');
   
   var gpa=0;
   var credits=5;
   var totalPossibleCredits = 10;
+  var totalGradeScores = 0;
   
   function clickMe(){
     alert("this is the click me button"); //alert for web
     Alert.alert("this is the click me button"); //alert for phone
     //get the studnet's gradePointsfor SSWD, multiply it by the credits 
     //add the result to totalGradeScores as an accumulator variable (e.g. tgs=tgs+sswd)
+
     
     //get the student's gradePointsfor Ob, multiply it by the credits
     //add the result to totalGradeScores as an accumulator variable (e.g. tgs=tgs+ob)
