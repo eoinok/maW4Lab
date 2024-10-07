@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
 To add these three styles to the relevant components - the outer view should get the style 'container'. Each of the inner views should
 get the style 'row'. The labels and textInputs should get the other two appropriate styles. Hint - to add a style to a component add
 ```
-style={style.mystyle}
+style={styles.mystyle}
 ```
 as a prop inside the tag of the component.
 
