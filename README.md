@@ -15,3 +15,30 @@ as there were only 10 possible credits. So the GPA will be 3.5.
 Take the starter code from App.js in the repo and make it work so that when the button is clicked, the message 
 "this is the click me button" appears. Then translate the commented lines of code in the clickMe function into working Javascript
 so that when the button is clicked the App will calculate the GPA for the student and output it to the screen using an alert.
+
+# Part 2
+Add the StyleSheet component to the list of components being imported at the top. Add the following block of code to your program.
+Add it inside the App function but before the return statement.
+```
+const styles = StyleSheet.create({
+  container: {
+
+  },
+  row: {
+
+  },
+  label: {
+
+  },
+  textInput: {
+
+  }
+});
+```
+To add these three styles to the relevant components - the outer view should get the style 'container'. Each of the inner views should
+get the style 'row'. The labels and textInputs should get the other two appropriate styles. Hint - to add a style to a component add
+```
+style={style.mystyle}
+```
+as a prop inside the tag of the component.
+
