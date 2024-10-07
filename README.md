@@ -43,8 +43,17 @@ style={style.mystyle}
 as a prop inside the tag of the component.
 
 Now modify the respective styles inside the CSS tag so that the App looks better. Each row should get a flexDirection of 'row' so that 
-the elements will appear alongside each other. To improve the look of the other elements add marginLeft, marginRight, and padding settings.
+the elements will appear alongside each other. This will allow us to fit more rows on the screen and thereby do a GPA calculation for a
+full semesters worth of modules. To improve the look of the other elements add marginLeft, marginRight, and padding settings.
 When adding these settings always use a percentage e.g. marginLeft: "5%". This will ensure the App is responsive and will render well
 on any screen size.
+
+# Part 3
+Add additional useState variables for MobileApps, Digital Marketing, OOAD, and Financial Management. Copy and paste the two existing rows
+to add additional rows for these modules, modify the code in each one so that the correct setState function is called when the text changes.
+Add additonal lines of code to the click me function so that the GPA will be calculated on the basis of 6 modules as opposed to two.
+You will also have to change the Total Possible Credits to 30.
+
+
 
 
