@@ -52,7 +52,7 @@ on any screen size.
 # Part 3
 Add additional useState variables for MobileApps, Digital Marketing, OOAD, and Financial Management. Copy and paste the two existing rows
 to add additional rows for these modules, modify the code in each one so that the correct setState function is called when the text changes.
-Add additonal lines of code to the click me function so that the GPA will be calculated on the basis of 6 modules as opposed to two.
+Add additonal lines of code to the clickMe function so that the GPA will be calculated on the basis of 6 modules as opposed to two.
 You will also have to change the Total Possible Credits to 30.
 
 
