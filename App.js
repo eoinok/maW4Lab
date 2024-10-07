@@ -29,7 +29,7 @@ export default function App() {
 
 return (
     <SafeAreaView>
-      <View><Text style={{flexDirection: "row", fontWeight: "bold", fontSize: 24, textAlign:"center", marginTop: "10%"}}>GPA Calculator</Text></View>
+      <View><Text style={{flexDirection: "row", fontWeight: "bold", fontSize: 24, textAlign:"center", marginTop: "%10"}}>GPA Calculator</Text></View>
       <View>
         <Text>Maths</Text>
         <TextInput  placeholder="Grade" onChangeText={(val) => setSswd(val)}/>
